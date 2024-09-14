@@ -1,0 +1,69 @@
+{
+  "primary_data": {
+    "store_of_sale": "NAME OF THE STORE RELATED TO THE INVOICE",
+    "date_of_sale": "DATE OF SALE (YYYY-MM-DD)",
+    "customer_name": "NAME OF THE CUSTOMER RELATED TO THE INVOICE",
+    "customer_registration_date": "DATE OF CUSTOMER REGISTRATION IN THE SYSTEM (YYYY-MM-DD)",
+    "mobile_1": "MOBILE NUMBER 1",
+    "mobile_2": "MOBILE NUMBER 2",
+    "mobile_3": "MOBILE NUMBER 3",
+    "mobile_4": "MOBILE NUMBER 4",
+    "seller_id": "SELLER ID IN THE SYSTEM",
+    "seller_full_name": "SELLER'S FULL NAME IN THE SYSTEM",
+    "seller_mobile": "SELLER'S MOBILE NUMBER IN THE SYSTEM",
+    "invoice_or_sale_id": "RELATED INVOICE OR SALE ID",
+    "invoice_or_sale_value": "VALUE OF THE RELATED INVOICE OR SALE",
+    "products": [
+      {
+        "product_id": "PRODUCT ID IN THE SYSTEM THAT WAS SOLD",
+        "manufacturer": "MANUFACTURER OF THE PRODUCT; IF SERVICE, WILL BE 'SERVICES'",
+        "product_name": "NAME OF THE PRODUCT OR SERVICE THAT WAS SOLD",
+        "product_description": "DESCRIPTION OF THE PRODUCT OR SERVICE THAT WAS SOLD IN THE SYSTEM",
+        "product_value": "VALUE OF THE PRODUCT OR SERVICE",
+        "quantity_sold": "QUANTITY SOLD OF THE PRODUCT OR SERVICE"
+      },
+      {
+        "product_id": "PRODUCT ID IN THE SYSTEM THAT WAS SOLD",
+        "manufacturer": "MANUFACTURER OF THE PRODUCT; IF SERVICE, WILL BE 'SERVICES'",
+        "product_name": "NAME OF THE PRODUCT OR SERVICE THAT WAS SOLD",
+        "product_description": "DESCRIPTION OF THE PRODUCT OR SERVICE THAT WAS SOLD IN THE SYSTEM",
+        "product_value": "VALUE OF THE PRODUCT OR SERVICE",
+        "quantity_sold": "QUANTITY SOLD OF THE PRODUCT OR SERVICE"
+      }
+    ]
+  },
+  "platforms_to_add": [
+    {
+      "platform": "NAME OF THE PLATFORM",
+      "platform_id": "RELATED ID WITHIN THE PLATFORM"
+    }
+  ],
+  "tags_to_add": [
+    {
+      "tag_name": "NAME OF THE TAG",
+      "tag_added_at": "DATE OF TAG ADDITION (YYYY-MM-DD)"
+    },
+    {
+      "tag_name": "NAME OF THE TAG",
+      "tag_added_at": "DATE OF TAG ADDITION (YYYY-MM-DD)"
+    }
+  ],
+  "conversations_to_add": [
+    {
+      "message_id": "MESSAGE ID HERE",
+      "phone_sender": "MOBILE NUMBER OF THE SENDER",
+      "phone_receiver": "MOBILE NUMBER OF THE RECEIVER",
+      "message_user": "NAME OF THE PERSON WHO SENT THE MESSAGE",
+      "message_date": "DATE OF MESSAGE SENT/RECEIVED (yyyy-MM-dd'T'HH:mm:ss'Z')",
+      "message_content": "CONTENT OF THE MESSAGE"
+    },
+    {
+      "message_id": "MESSAGE ID HERE",
+      "phone_sender": "MOBILE NUMBER OF THE SENDER",
+      "phone_receiver": "MOBILE NUMBER OF THE RECEIVER",
+      "message_user": "NAME OF THE PERSON WHO SENT THE MESSAGE",
+      "message_date": "DATE OF MESSAGE SENT/RECEIVED (yyyy-MM-dd'T'HH:mm:ss'Z')",
+      "message_content": "CONTENT OF THE MESSAGE"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "PERSON'S ID",
+  "id_in_platforms": [
+    {
+      "platform": "MAKE",
+      "id_in_platform": "198273981293"
+    }
+  ],
+  "number_invalid": false,
+  "full_name": "FULL NAME",
+  "first_name": "FIRST NAME",
+  "last_name": "LAST NAME",
+  "phone_number": "PHONE NUMBER",
+  "created_at": "CONTACT CREATION DATE (yyyy-MM-dd'T'HH:mm:ss'Z')",
+  "updated_at": "LAST UPDATE DATE (yyyy-MM-dd'T'HH:mm:ss'Z')",
+  "tags": [
+    {
+      "tag_name": "TAG NAME",
+      "tag_add_at": "TAG ADDITION DATE (YYYY-MM-DD)"
+    }
+  ],
+  "conversation_history": [
+    {
+      "message_id": "MESSAGE ID HERE",
+      "phone_sender": "SENDER'S PHONE NUMBER",
+      "phone_receiver": "RECEIVER'S PHONE NUMBER",
+      "message_user": "NAME OF THE PERSON WHO SENT THE MESSAGE",
+      "message_date": "DATE OF MESSAGE SENT/RECEIVED (yyyy-MM-dd'T'HH:mm:ss'Z')",
+      "message_content": "MESSAGE CONTENT"
+    }
+  ]
+}
